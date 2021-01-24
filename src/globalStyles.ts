@@ -7,6 +7,10 @@ export default createGlobalStyle `
         box-sizing:border-box;
         outline:0;
     }
+
+    html{
+        scroll-behavior: smooth;
+    }
     
     ul{
         list-style:none;
@@ -16,7 +20,7 @@ export default createGlobalStyle `
         text-decoration:none;
     }
 
-    h1, h2, h3, h4, h5, button{
+    h1, h2, h3, h4, h5, button, p, span, strong, input, textarea{
         font-family:'Josefin Sans', sans-serif;
     }
     

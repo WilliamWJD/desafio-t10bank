@@ -10,11 +10,21 @@ const Header: React.FC = () => {
           <NavBar>
             <img src={imageLogo} alt="T10 Bank"/>
             <Nav>
-              <NavItem>Home</NavItem>
-              <NavItem>Sobre nós</NavItem>
-              <NavItem>Serviços</NavItem>
-              <NavItem>Portfólio</NavItem>
-              <NavItem>Contato</NavItem>
+              <NavItem>
+                <a href="#">Home</a>
+              </NavItem>
+              <NavItem>
+                <a href="#sobre">Sobre nós</a>
+              </NavItem>
+              <NavItem>
+                <a href="#services">Serviços</a>
+              </NavItem>
+              <NavItem>
+                <a href="#portfolio">Portfólio</a>
+              </NavItem>
+              <NavItem>
+                <a href="#contact">Contato</a>
+              </NavItem>
             </Nav>
           </NavBar>
       </Container>

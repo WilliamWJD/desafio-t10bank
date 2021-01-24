@@ -18,6 +18,20 @@ export const Content = styled.div`
     width:426px;
     height:395px;
   }
+
+  @media(max-width:927px){
+    img{
+      width:326px;
+      height:295px;
+    }
+  }
+
+  @media(max-width:745px){
+    flex-direction:column;
+    img{
+      display:none;
+    }
+  }
 `;
 
 export const HomeDescription = styled.div`
@@ -51,6 +65,51 @@ export const HomeDescription = styled.div`
 
     &:hover{
       background-color:${shade(0.2,'#F97270')}
+    }
+  }
+
+  @media(max-width:927px){
+    h1{
+      font-size:40px;
+    }
+
+    span{
+      font-size:20px;
+    }
+  }
+
+  @media(max-width:745px){
+    align-items:center;
+    margin-left:0;
+    padding:0 10px;
+  }
+  
+  @media(max-width:658px){
+    h1{
+      font-size:30px;
+    }
+  }
+
+  @media(max-width:540px){
+    h1{
+      font-size:25px;
+    }
+
+    span{
+      font-size:15px;
+    }
+
+    button{
+      width:150px;
+      height:40px;
+      font-size:15px;
+    }
+  }
+
+  @media(max-width:443px){
+    h1{
+      text-align:center;
+      line-height:35px;
     }
   }
 `;
