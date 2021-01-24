@@ -9,7 +9,7 @@ import { Container, Content, Item } from './styles';
 const Porfolio: React.FC = () => {
   return(
       <Container id="portfolio">
-          <h1>PORFÓLIO</h1>
+          <h1>PORTFÓLIO</h1>
           <strong>Meus trabalhos</strong>
 
           <Content>
