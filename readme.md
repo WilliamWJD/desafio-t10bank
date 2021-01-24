@@ -8,7 +8,7 @@ Desáfio de criação de uma página web
 </h1>
 
 ## Rodando o projeto
-- Utilizando o gerenciador de pacotes yarn em seu terminal rode o comando `yarn` para instalar todas as dependências do projeto 
+- Utilizando o gerenciador de pacotes yarn, em seu terminal rode o comando `yarn` para instalar todas as dependências do projeto 
 - Para iniciar o projeto rode o comando `yarn start`
 
 ## 🤔 Como contribuir
