@@ -4,6 +4,7 @@ import Contato from '../../components/Contato';
 
 import Header from '../../components/Header';
 import Home from '../../components/Home';
+import Menu from '../../components/Menu';
 import Porfolio from '../../components/Porfolio';
 import Services from '../../components/Servic';
 
@@ -21,6 +22,7 @@ const Index: React.FC = () => {
           <Porfolio/>
           <Contato/>
         </Content>
+
       </Container>
   )
 }

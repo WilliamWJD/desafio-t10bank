@@ -20,7 +20,7 @@ export default createGlobalStyle `
         text-decoration:none;
     }
 
-    h1, h2, h3, h4, h5, button, p, span, strong, input, textarea{
+    h1, h2, h3, h4, h5, button, p, span, strong, input, textarea, a{
         font-family:'Josefin Sans', sans-serif;
     }
     

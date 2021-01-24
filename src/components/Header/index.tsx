@@ -1,14 +1,27 @@
-import React from 'react';
-
+import React, { useCallback, useState } from 'react';
 import imageLogo from '../../assets/logo.png';
+
+import Menu from '../Menu';
 
 import { Container, NavBar, Nav, NavItem } from './styles';
 
 const Header: React.FC = () => {
+  const [showMenu, setShowMenu] = useState(false);
+
+  const openMenu = useCallback(()=>{
+    setShowMenu(!showMenu);
+  },[showMenu])
+
   return(
       <Container>
           <NavBar>
             <img src={imageLogo} alt="T10 Bank"/>
+
+              <Menu
+                showMenu={showMenu}
+                openMenu={openMenu}
+              />
+
             <Nav>
               <NavItem>
                 <a href="#">Home</a>

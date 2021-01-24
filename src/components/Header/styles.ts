@@ -50,3 +50,18 @@ export const NavItem = styled.li`
     }
 `;
 
+export const MenuHamburguer = styled.div`
+    display:none;
+    cursor:pointer;
+ 
+    img{
+        width:50px;
+        height:50px;
+        color:#fff;
+    }
+
+    @media(max-width:745px){
+        display:flex;
+    }
+`;
+
