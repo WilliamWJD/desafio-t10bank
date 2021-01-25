@@ -1,4 +1,4 @@
-<h1 align="center">Desáfio T10Bank</h1>
+<h1 align="center">Desafio T10Bank</h1>
 
 ## 💻 O Projeto
 Desáfio de criação de uma página web
